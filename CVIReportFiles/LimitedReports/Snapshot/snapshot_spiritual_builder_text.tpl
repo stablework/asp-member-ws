@@ -1,0 +1,1 @@
+Your cornerstone core value is Power, the application of pure energy for Good. This primary driver is supported by a strong faith in your own ability to know what to do, your faith that your actions are for the Good, and your faith that once you create change, you will know what to do next.

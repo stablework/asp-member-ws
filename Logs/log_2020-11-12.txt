@@ -1,0 +1,66 @@
+[Debug][2020-11-12 00:00:36.3616] MySQLDataProvider: SavePerson: INSERT INTO employee (employee_fname, employee_lname, postback_url, employee_birth_date, occupation_id, employee_position, employee_email, 
+                                            employee_region, employee_city, employee_state, employee_office, company_id, employee_hash, cvi_requested_date, lang, notify_cvi_taken,employee_phone, cvirpttype, pvi_level, locked) 
+                                        VALUES (?, ?, ?, '0001-01-01', '', '', 'travis@greshamtogether.org', '', '', '', '', '2144', 'b0088f9185434eee971133fe1d7b2f05', NOW(), '', 1, '',1003, 1, 0)
+[Error][2020-11-12 17:48:08.3101] CVIInviteRequests: System.Xml.XmlException: Root element is missing.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.Linq.XDocument.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text, LoadOptions options)
+   at TP.CVI.Api.Communication.CreateCviApi.Run() in D:\Dustin\CVI\TP.CVI\Api\Communication\CreateCviApi.cs:line 56
+[Error][2020-11-12 17:54:54.2713] CVIInviteRequests: System.Xml.XmlException: Root element is missing.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.Linq.XDocument.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text, LoadOptions options)
+   at TP.CVI.Api.Communication.CreateCviApi.Run() in D:\Dustin\CVI\TP.CVI\Api\Communication\CreateCviApi.cs:line 56
+[Debug][2020-11-12 17:59:30.5963] MySQLDataProvider: SavePerson: INSERT INTO employee (employee_fname, employee_lname, postback_url, employee_birth_date, occupation_id, employee_position, employee_email, 
+                                            employee_region, employee_city, employee_state, employee_office, company_id, employee_hash, cvi_requested_date, lang, notify_cvi_taken,employee_phone, cvirpttype, pvi_level, locked) 
+                                        VALUES (?, ?, ?, '0001-01-01', '', '', 'kristen@erep.com', '', '', '', '', '2144', '9e759331dbe044bebd0ef87202755860', NOW(), '', 1, '',1003, 1, 0)
+[Debug][2020-11-12 17:59:32.6276] MySQLDataProvider: SavePerson: INSERT INTO employee (employee_fname, employee_lname, postback_url, employee_birth_date, occupation_id, employee_position, employee_email, 
+                                            employee_region, employee_city, employee_state, employee_office, company_id, employee_hash, cvi_requested_date, lang, notify_cvi_taken,employee_phone, cvirpttype, pvi_level, locked) 
+                                        VALUES (?, ?, ?, '0001-01-01', '', '', 'scotts@apexfacility.com', '', '', '', '', '2144', '5208722ea7ca4c57a2e7d118eee2d66d', NOW(), '', 1, '',1003, 1, 0)
+[Debug][2020-11-12 18:00:08.7704] MySQLDataProvider: SavePerson: INSERT INTO employee (employee_fname, employee_lname, postback_url, employee_birth_date, occupation_id, employee_position, employee_email, 
+                                            employee_region, employee_city, employee_state, employee_office, company_id, employee_hash, cvi_requested_date, lang, notify_cvi_taken,employee_phone, cvirpttype, pvi_level, locked) 
+                                        VALUES (?, ?, ?, '0001-01-01', '', '', 'travis@test1.com', '', '', '', '', '2144', '7bb6f8e397c946d2be7a7652c269a9ea', NOW(), '', 1, '',1003, 1, 0)
+[Debug][2020-11-12 18:00:49.7553] MySQLDataProvider: SavePerson: INSERT INTO employee (employee_fname, employee_lname, postback_url, employee_birth_date, occupation_id, employee_position, employee_email, 
+                                            employee_region, employee_city, employee_state, employee_office, company_id, employee_hash, cvi_requested_date, lang, notify_cvi_taken,employee_phone, cvirpttype, pvi_level, locked) 
+                                        VALUES (?, ?, ?, '0001-01-01', '', '', 'tracy@erep.com', '', '', '', '', '2144', 'e335552b360745579e278356d1020750', NOW(), '', 1, '',1003, 1, 0)
+[Debug][2020-11-12 18:00:50.8021] MySQLDataProvider: SavePerson: INSERT INTO employee (employee_fname, employee_lname, postback_url, employee_birth_date, occupation_id, employee_position, employee_email, 
+                                            employee_region, employee_city, employee_state, employee_office, company_id, employee_hash, cvi_requested_date, lang, notify_cvi_taken,employee_phone, cvirpttype, pvi_level, locked) 
+                                        VALUES (?, ?, ?, '0001-01-01', '', '', 'anne@erep.com', '', '', '', '', '2144', '8f57d12a21df4c87ae44e8bd536e15f7', NOW(), '', 1, '',1003, 1, 0)
+[Error][2020-11-12 18:19:01.9776] CVIInviteRequests: System.Xml.XmlException: Root element is missing.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseDocumentContent()
+   at System.Xml.Linq.XDocument.Load(XmlReader reader, LoadOptions options)
+   at System.Xml.Linq.XDocument.Parse(String text, LoadOptions options)
+   at TP.CVI.Api.Communication.CreateCviApi.Run() in D:\Dustin\CVI\TP.CVI\Api\Communication\CreateCviApi.cs:line 56
+[Debug][2020-11-12 19:50:48.3072] MySQLDataProvider: SavePerson: INSERT INTO employee (employee_fname, employee_lname, postback_url, employee_birth_date, occupation_id, employee_position, employee_email, 
+                                            employee_region, employee_city, employee_state, employee_office, company_id, employee_hash, cvi_requested_date, lang, notify_cvi_taken,employee_phone, cvirpttype, pvi_level, locked) 
+                                        VALUES (?, ?, ?, '0001-01-01', '', '', 'travis@erep.com', '', '', '', '', '2144', '5f0e8d97275c4f4bbb170809ffcc6c1d', NOW(), 'en-US', 1, '',1003, 1, 0)
+[Debug][2020-11-12 20:01:28.9222] MySQLDataProvider: SavePerson: INSERT INTO employee (employee_fname, employee_lname, postback_url, employee_birth_date, occupation_id, employee_position, employee_email, 
+                                            employee_region, employee_city, employee_state, employee_office, company_id, employee_hash, cvi_requested_date, lang, notify_cvi_taken,employee_phone, cvirpttype, pvi_level, locked) 
+                                        VALUES (?, ?, ?, '0001-01-01', '', '', 'Dustin@taylorprotocols.com', '', '', '', '', '272', '01647be93fb848898fa0ade691368fbb', NOW(), 'nl-NL', 1, '',1003, 1, 0)
+[Debug][2020-11-12 20:42:36.1006] MySQLDataProvider: SavePerson: INSERT INTO employee (employee_fname, employee_lname, postback_url, employee_birth_date, occupation_id, employee_position, employee_email, 
+                                            employee_region, employee_city, employee_state, employee_office, company_id, employee_hash, cvi_requested_date, lang, notify_cvi_taken,employee_phone, cvirpttype, pvi_level, locked) 
+                                        VALUES (?, ?, ?, '0001-01-01', '', '', 'Dustin.dobson@taylorprotocols.com', '', '', '', '', '272', '4614e4c55e1743d5a6e1cff94e3c287f', NOW(), 'nl-NL', 1, '',1003, 1, 0)
+[Debug][2020-11-12 20:45:05.8837] MySQLDataProvider: SavePerson: INSERT INTO employee (employee_fname, employee_lname, postback_url, employee_birth_date, occupation_id, employee_position, employee_email, 
+                                            employee_region, employee_city, employee_state, employee_office, company_id, employee_hash, cvi_requested_date, lang, notify_cvi_taken,employee_phone, cvirpttype, pvi_level, locked) 
+                                        VALUES (?, ?, ?, '0001-01-01', '', '', 'emailtest@kerrystapleton.com', '', '', '', '', '2144', '16c0284eb52741c79ba858211fb8f78a', NOW(), 'en-US', 1, '',1003, 1, 0)
+[Debug][2020-11-12 20:46:20.9411] MySQLDataProvider: SavePerson: INSERT INTO employee (employee_fname, employee_lname, postback_url, employee_birth_date, occupation_id, employee_position, employee_email, 
+                                            employee_region, employee_city, employee_state, employee_office, company_id, employee_hash, cvi_requested_date, lang, notify_cvi_taken,employee_phone, cvirpttype, pvi_level, locked) 
+                                        VALUES (?, ?, ?, '0001-01-01', '', '', 'temail23@kerrystapleton.com', '', '', '', '', '2144', '9550354fb1274bb385b4c5a39f8b4eee', NOW(), '', 1, '',1003, 1, 0)
+[Debug][2020-11-12 20:48:57.4174] MySQLDataProvider: SavePerson: INSERT INTO employee (employee_fname, employee_lname, postback_url, employee_birth_date, occupation_id, employee_position, employee_email, 
+                                            employee_region, employee_city, employee_state, employee_office, company_id, employee_hash, cvi_requested_date, lang, notify_cvi_taken,employee_phone, cvirpttype, pvi_level, locked) 
+                                        VALUES (?, ?, ?, '0001-01-01', '', '', 'dustin1112a@taylorprotocols.com', '', '', '', '', '272', '94e35982ecaa4278905d751a0a076e50', NOW(), '', 1, '',1003, 1, 0)
+[Debug][2020-11-12 20:49:30.0097] MySQLDataProvider: SavePerson: INSERT INTO employee (employee_fname, employee_lname, postback_url, employee_birth_date, occupation_id, employee_position, employee_email, 
+                                            employee_region, employee_city, employee_state, employee_office, company_id, employee_hash, cvi_requested_date, lang, notify_cvi_taken,employee_phone, cvirpttype, pvi_level, locked) 
+                                        VALUES (?, ?, ?, '0001-01-01', '', '', 'testemail2@kerrystapleton.com', '', '', '', '', '2144', 'bae55a5cfe9748f9a619d8a87100e0ee', NOW(), 'en-US', 1, '',1003, 1, 0)
+[Debug][2020-11-12 20:59:54.2634] MySQLDataProvider: SavePerson: INSERT INTO employee (employee_fname, employee_lname, postback_url, employee_birth_date, occupation_id, employee_position, employee_email, 
+                                            employee_region, employee_city, employee_state, employee_office, company_id, employee_hash, cvi_requested_date, lang, notify_cvi_taken,employee_phone, cvirpttype, pvi_level, locked) 
+                                        VALUES (?, ?, ?, '0001-01-01', '', '', 'matt@webapper.net', '', '', '', '', '2144', '1c33bca0115f4380a8e8b26e6dd59341', NOW(), 'en-US', 1, '',1003, 1, 0)
+[Debug][2020-11-12 21:33:19.7054] MySQLDataProvider: SavePerson: INSERT INTO employee (employee_fname, employee_lname, postback_url, employee_birth_date, occupation_id, employee_position, employee_email, 
+                                            employee_region, employee_city, employee_state, employee_office, company_id, employee_hash, cvi_requested_date, lang, notify_cvi_taken,employee_phone, cvirpttype, pvi_level, locked) 
+                                        VALUES (?, ?, ?, '0001-01-01', '', '', 'Travis@erep.com', '', '', '', '', '2144', 'c3a8af4e24264d1abd47d16daea2355a', NOW(), 'en-US', 1, '',1003, 1, 0)
+[Debug][2020-11-12 22:54:59.7091] MySQLDataProvider: SavePerson: INSERT INTO employee (employee_fname, employee_lname, postback_url, employee_birth_date, occupation_id, employee_position, employee_email, 
+                                            employee_region, employee_city, employee_state, employee_office, company_id, employee_hash, cvi_requested_date, lang, notify_cvi_taken,employee_phone, cvirpttype, pvi_level, locked) 
+                                        VALUES (?, ?, ?, '0001-01-01', '', '', 'te1273@kerrystapleton.com', '', '', '', '', '1981', '61bc1530c4644354907ac9d83b06c92e', NOW(), '', 1, '',1003, 1, 0)

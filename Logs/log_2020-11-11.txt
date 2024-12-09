@@ -1,0 +1,12 @@
+[Debug][2020-11-11 00:41:08.7206] MySQLDataProvider: SavePerson: INSERT INTO employee (employee_fname, employee_lname, postback_url, employee_birth_date, occupation_id, employee_position, employee_email, 
+                                            employee_region, employee_city, employee_state, employee_office, company_id, employee_hash, cvi_requested_date, lang, notify_cvi_taken,employee_phone, cvirpttype, pvi_level, locked) 
+                                        VALUES (?, ?, ?, '0001-01-01', '', '', 'testest@kerrystapleton.com', '', '', '', '', '2144', 'f400743af4884298a786cd1ceb16f401', NOW(), 'en-US', 1, '',1003, 1, 0)
+[Debug][2020-11-11 00:50:54.6778] MySQLDataProvider: SavePerson: INSERT INTO employee (employee_fname, employee_lname, postback_url, employee_birth_date, occupation_id, employee_position, employee_email, 
+                                            employee_region, employee_city, employee_state, employee_office, company_id, employee_hash, cvi_requested_date, lang, notify_cvi_taken,employee_phone, cvirpttype, pvi_level, locked) 
+                                        VALUES (?, ?, ?, '0001-01-01', '', '', '123test23@kerrystapleton.com', '', '', '', '', '2144', '51133ca287c1416a832e3fa87fb7adbc', NOW(), '', 1, '',1003, 1, 0)
+[Debug][2020-11-11 01:08:16.7381] MySQLDataProvider: SavePerson: 
+                    UPDATE employee set employee_fname=?, employee_lname=?, employee_birth_date='0001-01-01', occupation_id='', employee_position='', employee_email='testest@kerrystapleton.com', 
+                    employee_region='', employee_city='', employee_state='', employee_office='', locked=False where employee_id=1041467
+[Debug][2020-11-11 17:43:30.9451] MySQLDataProvider: SavePerson: INSERT INTO employee (employee_fname, employee_lname, postback_url, employee_birth_date, occupation_id, employee_position, employee_email, 
+                                            employee_region, employee_city, employee_state, employee_office, company_id, employee_hash, cvi_requested_date, lang, notify_cvi_taken,employee_phone, cvirpttype, pvi_level, locked) 
+                                        VALUES (?, ?, ?, '0001-01-01', '', '', 'matt@webapper.net', '', '', '', '', '2144', '07c404cc17524435992da31db7d5300d', NOW(), 'en-US', 1, '',1003, 1, 0)

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<formats>
+  <format label="fighting">
+    <paragraph1>
+      <scenario1>
+        <own>You tend to use {0} when you fight. Then you tend to shift into {1} and sometimes you may even use {2}.</own>
+        <opponent>{3} tends to use {0} first,  then #noun# shifts to {1}, and sometimes #noun#  may even use {2}.</opponent>
+      </scenario1>
+      <scenario2>
+        <own>You tend to use {0} and {1}  when you fight. Sometimes you may shift and  use {2}.</own>
+        <opponent>{3} tends to use {0} and {1}, and sometimes #noun#  may even use {2}.</opponent>
+      </scenario2>
+    </paragraph1>
+    <paragraph2>
+      <scenario1>
+        <own>If you feel {1} you tend to use {0} first when you fight. Then you tend to shift into {2} if you start to feel {3}. Sometimes you may feel {5} and may use {4} as your fight strategy.</own>
+        <opponent>If {6} feels {1} #noun# tends to use {0} first when #noun# fights. Then #noun# tends to shift into {2} if #noun# starts to feel {3}. Sometimes {6} may feel {5} and may use {4} as #adj_pron# fight strategy.</opponent>
+      </scenario1>
+      <scenario2>
+        <own>If you feel {1}, or {3} you tend to use {0} and {2} when you fight. Sometimes you may feel {5} and may use {4} as your fight strategy.</own>
+        <opponent>If {6} feels {1} or {3} #noun# tends to use {0} and {2} when #noun# fights. Sometimes #noun# may feel {5} and may use {4} as #adj_pron# fight strategy.</opponent>
+      </scenario2>
+    </paragraph2>
+    <mapping>
+      <builder col1="intimidation" col2="frustrated or powerless" />
+      <merchant col1="manipulation" col2="unloved or disregarded" />
+      <innovator col1="interrogation" col2="foolish or that your ideas are not respected" />
+      <banker col1="aloof judgment" col2="disrespected or unjustly treated" />
+    </mapping>
+  </format>
+
+  <format label="learning">
+    <paragraph1>
+      <scenario1>
+        <own>You prefer to {0} in order to learn. Then you tend to {1}. Sometimes you may even use the {2} strategy in order to learn.</own>
+        <opponent>{3} prefers to {0} in order to learn. Then {3} tends to {1}. Sometimes #noun#  may even use the {2} strategy in order to learn.</opponent>
+      </scenario1>
+      <scenario2>
+        <own>You prefer to {0} and {1} in order to learn. Sometimes you may use the {2} strategy in order to learn.</own>
+        <opponent>{3} prefers to {0} and {1} in order to learn. Sometimes {3} may use the {2} strategy in order to learn.</opponent>
+      </scenario2>
+    </paragraph1>
+    <mapping>
+      <builder col1="decide and do" col2="" />
+      <merchant col1="talk and listen" col2="" />
+      <innovator col1="assess and solve" col2="" />
+      <banker col1="read and analyze" col2="" />
+    </mapping>
+  </format>
+
+  <format label="working">
+    <paragraph1>
+      <scenario1>
+        <own>You prefer to {0} when you participate. Then you tend to shift into the {1} strategy. Sometimes you may even {2} when you want to make your best contribution.</own>
+        <opponent>{3} prefers to {0} when #noun# participate. Then #noun# tends to shift into the {1} strategy. Sometimes {3}  may even {2} when  #noun# wants to make #adj_pron# best contribution.</opponent>
+      </scenario1>
+      <scenario2>
+        <own>You prefer to {0}, and you also {1} when you participate. Sometimes you may even {2} when you want to make your best contribution.</own>
+        <opponent>{3} prefers to {0} and {1} when #noun# participates.  Sometimes {3}  may even {2} when #noun# is trying to make #adj_pron# best contribution.</opponent>
+      </scenario2>
+    </paragraph1>
+    <mapping>
+      <builder col1="take action and get results" col2="" />
+      <merchant col1="create relationships and inspire others with a positive vision" col2="" />
+      <innovator col1="observe the way things are and provide a wise solution" col2="" />
+      <banker col1="gather and share information, conserve resources, ensuring security" col2="" />
+    </mapping>
+  </format>
+</formats>

@@ -1,0 +1,1 @@
+<%@ WebService Language="C#" CodeBehind="CVI.asmx.cs" Class="TP.CVI.Uts" %>

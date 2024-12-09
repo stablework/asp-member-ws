@@ -1,0 +1,6 @@
+[Debug][2020-11-10 20:25:37.3623] MySQLDataProvider: SavePerson: INSERT INTO employee (employee_fname, employee_lname, postback_url, employee_birth_date, occupation_id, employee_position, employee_email, 
+                                            employee_region, employee_city, employee_state, employee_office, company_id, employee_hash, cvi_requested_date, lang, notify_cvi_taken,employee_phone, cvirpttype, pvi_level, locked) 
+                                        VALUES (?, ?, ?, '0001-01-01', '', '', 'dobson3432@tp.com', '', '', '', '', '272', '6248e4d375564571872074a82bf54526', NOW(), '', 1, '',1003, 1, 0)
+[Debug][2020-11-10 20:35:29.2200] MySQLDataProvider: SavePerson: INSERT INTO employee (employee_fname, employee_lname, postback_url, employee_birth_date, occupation_id, employee_position, employee_email, 
+                                            employee_region, employee_city, employee_state, employee_office, company_id, employee_hash, cvi_requested_date, lang, notify_cvi_taken,employee_phone, cvirpttype, pvi_level, locked) 
+                                        VALUES (?, ?, ?, '0001-01-01', '', '', 'dustin@taylorprotocols.com', '', '', '', '', '272', 'e62b9faaa48f4468924bcd344ad494eb', NOW(), 'nl-NL', 1, '',1003, 1, 0)
